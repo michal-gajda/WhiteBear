@@ -15,7 +15,7 @@ public record struct Isbn
 
         if (regex.IsMatch(value) is false)
         {
-            throw new IncorrectIsbnException(nameof(value));
+            throw new IncorrectIsbnException(value);
         }
 
         this.Value = value;

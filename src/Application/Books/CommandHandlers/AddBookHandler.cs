@@ -1,6 +1,6 @@
-namespace WhiteBear.Application.CommandHandlers;
+namespace WhiteBear.Application.Books.CommandHandlers;
 
-using WhiteBear.Application.Commands;
+using WhiteBear.Application.Books.Commands;
 using WhiteBear.Domain.Entities;
 using WhiteBear.Domain.Interfaces;
 

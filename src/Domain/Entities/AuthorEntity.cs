@@ -1,7 +1,7 @@
 ﻿namespace WhiteBear.Domain.Entities;
 
-public sealed record class Author
+public sealed record class AuthorEntity
 {
-    public required int Id { get; init; }
+    public required Guid Id { get; init; }
     public required string Name { get; init; }
 }

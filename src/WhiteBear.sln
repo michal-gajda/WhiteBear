@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBear.Domain", "Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBear.Application", "Application\WhiteBear.Application.csproj", "{92E91EBE-633E-4164-BE5E-2E184D264BD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBear.Infrastructure", "Infrastructure\WhiteBear.Infrastructure.csproj", "{5E4C0151-CA56-4DF7-AC24-6A15AE0CA0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBear.WebApi", "WebApi\WhiteBear.WebApi.csproj", "{233DA562-1417-49B4-BE67-D8644DB54F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{92E91EBE-633E-4164-BE5E-2E184D264BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92E91EBE-633E-4164-BE5E-2E184D264BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92E91EBE-633E-4164-BE5E-2E184D264BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4C0151-CA56-4DF7-AC24-6A15AE0CA0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4C0151-CA56-4DF7-AC24-6A15AE0CA0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4C0151-CA56-4DF7-AC24-6A15AE0CA0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4C0151-CA56-4DF7-AC24-6A15AE0CA0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233DA562-1417-49B4-BE67-D8644DB54F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233DA562-1417-49B4-BE67-D8644DB54F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233DA562-1417-49B4-BE67-D8644DB54F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233DA562-1417-49B4-BE67-D8644DB54F75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

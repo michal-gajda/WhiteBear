@@ -2,7 +2,7 @@
 
 public sealed class IncorrectIsbnException : Exception
 {
-    public IncorrectIsbnException(string message) : base(message)
+    public IncorrectIsbnException(string isbn) : base($"'{isbn}' is not valid ISBN")
     {
     }
 }
